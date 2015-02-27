@@ -142,7 +142,9 @@ class glimpse_HtmlEnhancer {
 			// Needle has been found...
 			if ($p !== false) {
 				// Check whether it is part of a word or not (hope it's not!)
-				if (! $this->isLetter ( substr ( $html, $p - 1, 1 ) ) && ! $this->isLetter ( substr ( $html, $p + $nl, 1 ) )) {
+				$prev = substr ( $html, $p - 1, 1 );
+				$next = substr ( $html, $p + $nl, 1 );
+				if (! $this->isLetter($prev) && ! $this->isLetter($next) && $prev != '-' && $next != '-') {
 					$this->needles [] = new glimpse_HtmlNeedle ( $needle, $p );
 				}
 			}
