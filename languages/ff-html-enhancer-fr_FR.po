@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Enhancer 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-08 16:43+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Glimpse <glimpse@glimpse-fr.org>\n"
+"Language-Team:  <glimpse@glimpse-fr.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-abbr.php:1
+#: classes/tokens/HtmlAbbr.class.php:79
+msgid "Abbreviations"
+msgstr "Abréviations"
+
+#: admin/admin-abbr.php:4
+msgid "An abbreviation may not be pronounced like a word, contrary to an acronym (ex.: DVD, XML)."
+msgstr "Une abbréviation (ou sigle) ne peut pas être prononcée comme un mot, contrairement à un acronyme (ex. DVD, SNCF, XML)."
+
+#: admin/admin-abbr.php:9
+msgid "Abbreviation"
+msgstr "Abréviation"
+
+#: admin/admin-abbr.php:10
+#: admin/admin-acronym.php:10
+msgid "Definition"
+msgstr "Définition"
+
+#: admin/admin-abbr.php:11
+#: admin/admin-acronym.php:11
+#: admin/admin-custom.php:12
+#: admin/admin-lang.php:10
+#: admin/admin-link.php:10
+msgid "Language"
+msgstr "Langue"
+
+#: admin/admin-abbr.php:12
+#: admin/admin-acronym.php:12
+#: admin/admin-link.php:11
+msgid "URL"
+msgstr "URL"
+
+#: admin/admin-abbr.php:13
+#: admin/admin-acronym.php:13
+#: admin/admin-link.php:12
+msgid "URL lang."
+msgstr "Langue de l'URL"
+
+#: admin/admin-abbr.php:25
+#: admin/admin-abbr.php:36
+#: admin/admin-abbr.php:56
+#: admin/admin-abbr.php:67
+#: admin/admin-acronym.php:25
+#: admin/admin-acronym.php:36
+#: admin/admin-acronym.php:56
+#: admin/admin-acronym.php:67
+#: admin/admin-custom.php:25
+#: admin/admin-custom.php:46
+#: admin/admin-link.php:23
+#: admin/admin-link.php:34
+#: admin/admin-link.php:53
+#: admin/admin-link.php:64
+msgid "Same as page content"
+msgstr "pas de changement"
+
+#: admin/admin-acronym.php:1
+#: classes/tokens/HtmlAcronym.class.php:30
+msgid "Acronyms"
+msgstr "Acronymes"
+
+#: admin/admin-acronym.php:4
+msgid "An acronym is an abbreviation that can be pronounced just like a word (ex.: laser, captcha)."
+msgstr "Un acronyme est une abréviation qui peut être prononcée comme un mot (ex. : laser, captcha)."
+
+#: admin/admin-acronym.php:9
+msgid "Acronym"
+msgstr "Acronyme"
+
+#: admin/admin-acronym.php:44
+#: admin/admin-custom.php:33
+#: admin/admin-lang.php:30
+#: admin/admin-link.php:42
+msgid "delete"
+msgstr "supprimer"
+
+#: admin/admin-custom.php:1
+#: classes/tokens/HtmlCustom.class.php:66
+msgid "Custom tag/class replacement"
+msgstr "Tag/classe CSS personnalisé"
+
+#: admin/admin-custom.php:4
+msgid "Want to put all the occurences of your name into a <code>strong</code> element? :-)"
+msgstr "Vous voulez entourer toutes les occurences de votre nom par une balise <code>strong</code> ? :-)"
+
+#: admin/admin-custom.php:9
+msgid "Expression to surround"
+msgstr "Expression à entourer"
+
+#: admin/admin-custom.php:10
+msgid "Tag name"
+msgstr "Balise"
+
+#: admin/admin-custom.php:11
+msgid "CSS class"
+msgstr "Classe CSS"
+
+#: admin/admin-lang.php:1
+#: classes/tokens/HtmlLang.class.php:60
+msgid "Foreign words"
+msgstr "Mots en langue étrangère"
+
+#: admin/admin-lang.php:4
+msgid "For accessibilty purpose, every foreign word (a word that is not part of the main language of the page) must be surrounded by a tag with the appropriate <code>lang</code> attribute."
+msgstr "Pour des raisons d'accessibilité, chaque mot (ou expression) qui ne fait pas partie de la langue de traitement du bloc dans lequel il se trouve doit être entouré par une balise <code>span</code> (ou autre) avec l'attribut <code>lang</code> correspondant à la langue du mot."
+
+#: admin/admin-lang.php:9
+msgid "Foreign expression"
+msgstr "Mot en langue étrangère"
+
+#: admin/admin-lang.php:11
+msgid "Translation"
+msgstr "Traduction"
+
+#: admin/admin-link.php:1
+#: classes/tokens/HtmlLink.class.php:65
+msgid "Links"
+msgstr "Liens automatiques"
+
+#: admin/admin-link.php:4
+msgid "Some words may need a link to a page that explains it... Use this to automate the links for the words (or expression) you want."
+msgstr "Certains mots ou expressions peuvent nécessiter un lien vers une page d'explication. Utilisez ceci pour automatiser la création de liens sur les mots ou expressions que vous souhaitez."
+
+#: admin/admin-link.php:9
+msgid "Expression to link"
+msgstr "Expression à lier"
+
+#: admin/main.php:18
+msgid "HTML Enhancer makes it easy to enhance HTML to make it richer and more accessible."
+msgstr "HTML Enhancer permet d'enrichir les contenus de vos pages et posts dans le but de les rendre plus fonctionnels et accessibles."
+
+#: admin/main.php:19
+msgid "HTML Enhancer works kite that: you define a list of acronyms, abbreviations, expressions in a foreign language and key words. HTML Enhancer will then ensure that these expressions are surrounded with the appropriate HTML tag (abbr, acronym, a, span, ...)"
+msgstr "HTML Enhancer fonctionne de la manière suivante : vous définissez une liste d'abréviations, d'acronymes, de mots (ou expressions) en langue étrangère ou importants. HTML Enhancer fait en sorte que ces expressions soient entourées par la balise HTML appropriée (abbr, acronym, a, span)."
+
+#: admin/main.php:40
+msgid "french"
+msgstr "français"
+
+#: admin/main.php:41
+msgid "english"
+msgstr "anglais"
+
+#: admin/main.php:42
+msgid "german"
+msgstr "allemand"
+
+#: admin/main.php:43
+msgid "spanish"
+msgstr "espagnol"
+
+#: admin/main.php:44
+msgid "italian"
+msgstr "italien"
+
+#: admin/main.php:51
+msgid "Submit"
+msgstr "Valider"
+
+#~ msgid "To achieve this, HTML Enhancer..."
+#~ msgstr "Pour arriver à ceci, HTML Enhancer..."
+#~ msgid ""
+#~ "ensures the abbreviations and acronyms you use are always rendered in the "
+#~ "HTML with the appropriate tags"
+#~ msgstr ""
+#~ "vous assure que les abréviations et acronymes que vous utilisez sont "
+#~ "rendus avec la balise HTML appropriée"
+#~ msgid ""
+#~ "ensures that the foreign words you use are always surrounded with a "
+#~ "<code>span</code> element with its <code>lang</code> attribute set to the "
+#~ "appropriate language"
+#~ msgstr ""
+#~ "vous assure que chaque mot en langue étrangère sera toujours entouré "
+#~ "d'une balise <code>span</code> avec l'attribut <code>lang</code> "
+#~ "contenant le code de la langue du mot"
+#~ msgid "links your favorite and important words"
+#~ msgstr ""
+#~ "lie automatiquement vos mots favoris à des pages qui offrent plus de "
+#~ "détails"
+
+#, fuzzy
+#~ msgid "category-"
+#~ msgstr "Liens automatiques"
+#~ msgid "category-link"
+#~ msgstr "Liens automatiques"
+#~ msgid "category-lang"
+#~ msgstr "Mots en langue étrangère"
+#~ msgid "category-custom"
+#~ msgstr "Tag/classe CSS personnalisé"
+#~ msgid "category-abbr"
+#~ msgstr "Abréviations"
+#~ msgid "category-acronym"
+#~ msgstr "Acronymes"
+
+#, fuzzy
+#~ msgid "link"
+#~ msgstr "Liens automatiques"
+
+#, fuzzy
+#~ msgid "lang"
+#~ msgstr "Langue de destination"
+#~ msgid "Automatic links"
+#~ msgstr "Liens automatiques"
+
